@@ -20,7 +20,7 @@ const gameContexts = {
     
     // Lựa chọn 2
     "context_2": {
-        "description": "Đến đảo, Phương Tâm, bạn thân của bạn, đề nghị cả đội đi đường vòng để qua đền, nghe nói ở đây có ngôi đền thiêng trên con dốc qua đầm nuôi cá trước khi về tàu rời đảo. Cả đội hào hứng và quyết định ghé thăm nơi đây. Nhưng không quyết định được nên ăn trước rồi đi, hay lên đến đền rồi ăn. Biểu quyết ngang nhau, lựa chọn của bạn sẽ quyết định:",
+        "description": "Đến đảo, Thúy Hằng, bạn thân của bạn, đề nghị cả đội đi đường vòng để qua đền, nghe nói ở đây có ngôi đền thiêng trên con dốc qua đầm nuôi cá trước khi về tàu rời đảo. Cả đội hào hứng và quyết định ghé thăm nơi đây. Nhưng không quyết định được nên ăn trước rồi đi, hay lên đến đền rồi ăn. Biểu quyết ngang nhau, lựa chọn của bạn sẽ quyết định:",
         "choices": [
             {"id": "context_2A", "text": "Lên đền rồi ăn"},
             {"id": "context_2B", "text": "Ăn trước"}
@@ -29,7 +29,7 @@ const gameContexts = {
     
     // Nhánh 2A
     "context_2A": {
-        "description": "Cả đội thống nhất lên chùa rồi ăn. Mọi người vừa đi vừa trò chuyện. Chẳng mấy chốc đã đến cổng đền, mọi người vào cổng. Đây là một ngôi chùa to, nhưng chạm khắc, hoa văn kì lạ, thậm chí có hình đầu lâu, không khí có vẻ tĩnh lặng thay vì thanh tịnh, người ở đây cũng rất ít. Cả đội đi viếng đền, tuy nhiên ở đây không có hương, cũng không có tượng thờ hay ghi chú để biết nơi đây thờ ai nhưng cột cờ, cột đá, đá tảng kì lạ, có 1 thùng công đức. Phương Tâm đại diện bỏ tiền vào thùng công đức, mọi người còn lại dọn dẹp sơ bộ và nhìn ngắm kiến trúc kì lạ này. Bạn thấy người giữ đền đứng từ sân sau, đang nhìn bạn. Bạn đang nghĩ đến việc sẽ ăn gì khi ra khỏi đền.",
+        "description": "Cả đội thống nhất lên chùa rồi ăn. Mọi người vừa đi vừa trò chuyện. Chẳng mấy chốc đã đến cổng đền, mọi người vào cổng. Đây là một ngôi chùa to, nhưng chạm khắc, hoa văn kì lạ, thậm chí có hình đầu lâu, không khí có vẻ tĩnh lặng thay vì thanh tịnh, người ở đây cũng rất ít. Cả đội đi viếng đền, tuy nhiên ở đây không có hương, cũng không có tượng thờ hay ghi chú để biết nơi đây thờ ai nhưng cột cờ, cột đá, đá tảng kì lạ, có 1 thùng công đức. Thúy Hằng đại diện bỏ tiền vào thùng công đức, mọi người còn lại dọn dẹp sơ bộ và nhìn ngắm kiến trúc kì lạ này. Bạn thấy người giữ đền đứng từ sân sau, đang nhìn bạn. Bạn đang nghĩ đến việc sẽ ăn gì khi ra khỏi đền.",
         "choices": [
             {"id": "context_2A1", "text": "Bắt đầu chủ đề trò chuyện với đám bạn về vấn đề ăn uống."},
             {"id": "context_2A2", "text": "Bắt chuyện và hỏi người giữ đền về chỗ ăn"}
@@ -47,7 +47,7 @@ const gameContexts = {
     
     // Nhánh 2A.1
     "context_2A1": {
-        "description": "Bạn tự đề xuất ăn mì cay ở quán trên đường đến đây. Bảo Dương phản đối với lý do ăn mì cay dễ bị nhiệt. Vi Trí không ý kiến về vấn đề đồ ăn. Phương Tâm cũng muốn ăn mì cay. Đang tranh cãi thì người giữ đền đi đến nói: \"Các con đừng đi đường vòng nữa, quay lại đường chính đi\". Nói xong, người giữ đền rời đi. \"Ơ sao thế nhỉ?\" <br> \"Chắc đường đang được sửa hay sao đó hả?\" <br>\"Thế đi đường ngược về hay sao? Vậy chán lắm trời ơi\" <br>...<br>\"Thôi bà đó xàm đó, kệ mẹ bả đi\" <br> Cả đám vẫn quyết định đi thăm trại cá",
+        "description": "Bạn tự đề xuất ăn mì cay ở quán trên đường đến đây. Bảo Dương phản đối với lý do ăn mì cay dễ bị nhiệt. Vi Trí không ý kiến về vấn đề đồ ăn. Thúy Hằng cũng muốn ăn mì cay. Đang tranh cãi thì người giữ đền đi đến nói: \"Các con đừng đi đường vòng nữa, quay lại đường chính đi\". Nói xong, người giữ đền rời đi. \"Ơ sao thế nhỉ?\" <br> \"Chắc đường đang được sửa hay sao đó hả?\" <br>\"Thế đi đường ngược về hay sao? Vậy chán lắm trời ơi\" <br>...<br>\"Thôi bà đó xàm đó, kệ mẹ bả đi\" <br> Cả đám vẫn quyết định đi thăm trại cá",
         "choices": [
             {"id": "context_3", "text": "Dọn dẹp xong, bắt đầu đi ăn thôi"}
         ]
@@ -55,7 +55,7 @@ const gameContexts = {
     
     // Nhánh 2A.2
     "context_2A2": {
-        "description": "Bạn vừa tiến đến người giữ đền vừa hỏi: \"Cô ở đây ạ? Kiến trúc đền mình lạ quá cô hen, đền mình thờ ai vậy ạ?\" Người giữ đền im lặng một lát rồi trả lời: \"Không phải thờ đâu con ơi, là đang trấn giữ...\" Từ xa vang lại tiếng của Huyền Trân: \"ei ei, xíu nữa đi ăn mì cay nhá\" Bạn đáp lại Huyền Trân rồi quay lại tiếp tục cuộc trò chuyện với người giữ đền: \"dạ? Thờ ai ạ?\" Người giữ đền lắc đầu, hỏi lại: \"là tiệm mì trên đường đến đây sao? Ăn xong đi đường đó về luôn đi, đừng đi đường vòng nữa nhen con\" Nói rồi người giữ đền rời đi. Bạn kể lại với đám bạn về cuộc trò chuyện.\"Ơ sao thế nhỉ?\" <br> \"Chắc đường đang được sửa hay sao đó hả?\" <br>\"Thế đi đường ngược về hay sao? Vậy chán lắm trời ơi\" <br>...<br>\"Thôi bà đó xàm đó, kệ mẹ bả đi\" <br> Cả đám vẫn quyết định đi thăm trại cá",
+        "description": "Bạn vừa tiến đến người giữ đền vừa hỏi: \"Cô ở đây ạ? Kiến trúc đền mình lạ quá cô hen, đền mình thờ ai vậy ạ?\" Người giữ đền im lặng một lát rồi trả lời: \"Không phải thờ đâu con ơi, là đang trấn giữ...\" Từ xa vang lại tiếng của Thúy Hằng: \"ei ei, xíu nữa đi ăn mì cay nhá\" Bạn đáp lại Thúy Hằng rồi quay lại tiếp tục cuộc trò chuyện với người giữ đền: \"dạ? Thờ ai ạ?\" Người giữ đền lắc đầu, hỏi lại: \"là tiệm mì trên đường đến đây sao? Ăn xong đi đường đó về luôn đi, đừng đi đường vòng nữa nhen con\" Nói rồi người giữ đền rời đi. Bạn kể lại với đám bạn về cuộc trò chuyện.\"Ơ sao thế nhỉ?\" <br> \"Chắc đường đang được sửa hay sao đó hả?\" <br>\"Thế đi đường ngược về hay sao? Vậy chán lắm trời ơi\" <br>...<br>\"Thôi bà đó xàm đó, kệ mẹ bả đi\" <br> Cả đám vẫn quyết định đi thăm trại cá",
         "choices": [
             {"id": "context_3", "text": "Dọn dẹp xong, bắt đầu đi ăn thôi"}
         ]
@@ -71,22 +71,22 @@ const gameContexts = {
     
     // Nhánh 2B.2
     "context_2B2": {
-        "description": "Khi chủ quán nghe bạn gọi món cá, chủ quán mỉm cười: \"Là dân ở đây dắt bạn về nhỉ?\" <br> Khi mỳ đem ra, chỉ có đầu cá, không có phần thân và các phần thịt khác.Sau khi ăn xong mọi người bắt đầu lên đền.",
+        "description": "Khi chủ quán nghe bạn gọi món cá, chủ quán mỉm cười: \"Là dân ở đây dắt bạn về nhỉ?\" <br> Khi mỳ đem ra, chỉ có đầu cá, không có phần thân và các phần thịt khác. <br>Sau khi ăn xong mọi người bắt đầu lên đền.",
         "choices": [
             {"id": "context_2B_12", "text": "Tiếp tục cuộc hành trình"}
         ]
     },
 
    "context_2B_12": {
-        "description": "Mọi người vừa đi vừa trò chuyện. Chẳng mấy chốc đã đến cổng đền, mọi người vào cổng. Đây là một ngôi đền to, nhưng chạm khắc, hoa văn kì lạ, thậm chí có hình đầu lâu, không khí có vẻ tĩnh lặng thay vì thanh tịnh, người ở đây cũng rất ít. Cả đội đi viếng đền, tuy nhiên ở đây không có hương, cũng không có tượng thờ hay ghi chú để biết nơi đây thờ ai có nhưng cột cờ, cột đá, đá tảng kì lạ, có 1 thùng công đức. Phương Tâm đại diện bỏ tiền vào thùng công đức, mọi người còn lại dọn dẹp sơ bộ và nhìn ngắm kiến trúc kì lạ này. Viếng đền xong, cả đám đi thăm trại cá",
+        "description": "Mọi người vừa đi vừa trò chuyện. Chẳng mấy chốc đã đến cổng đền, mọi người vào cổng. Đây là một ngôi đền to, nhưng chạm khắc, hoa văn kì lạ, thậm chí có hình đầu lâu, không khí có vẻ tĩnh lặng thay vì thanh tịnh, người ở đây cũng rất ít. Cả đội đi viếng đền, tuy nhiên ở đây không có hương, cũng không có tượng thờ hay ghi chú để biết nơi đây thờ ai có nhưng cột cờ, cột đá, đá tảng kì lạ, có 1 thùng công đức. Thúy Hằng đại diện bỏ tiền vào thùng công đức, mọi người còn lại dọn dẹp sơ bộ và nhìn ngắm kiến trúc kì lạ này. Viếng đền xong, cả đám đi thăm trại cá",
         "choices": [
-            {"id": "context_2B_12", "text": "Tiếp tục cuộc hành trình"}
+            {"id": "context_3", "text": "Tiếp tục cuộc hành trình"}
         ]
     },
     
     // Lựa chọn 3
     "context_3": {
-        "description": "Cả đám lần lượt thả dốc 2 người 1 xe xuống đường ruộng quanh ao cá. Bảo Dương chở bạn, Vi Trí chở Huyền Trân.<br>Đó là một con dốc dài, dốc và gồ ghề. Dọc 2 bên đường là các ao cá to. Nước ao trong lành sạch sẽ, mùi cá thoang thoảng, không khí mát lạnh làm bạn rất thích. Mọi người vui vẻ trò chuyện reo hò.<br>Càng đi các ao cá càng ít cá hơn, nhưng những con cá càng to và khoẻ hơn, thỉnh thoảng còn có vài con nhảy ngang mặt ao.<br>Lại đến 1 con dốc khác. Tuy nhiên nó để bảng: \"Không phận sự cấm vào\", đó là 1 chiếc bảng viết tay thủ công, dính bùn và đã cũ kĩ, nhưng không hề có hàng rào hay đồ chặn hay bất cứ gì khác tương tự. Huyền Trân mở google map ra kiểm tra lần nữa, map hiển thị chỉ cần đi thêm 1.3km là ra đường chính, nơi xe trung chuyển sẽ đến đón. Nhưng nếu quay lại sẽ phải mất 3h, chắc chắn sẽ không kịp xe, và trễ tàu.<br>\"Chắc thằng khùng nào khi trước rào lên giữ đất thôi\" Bảo Dương lên tiếng, không còn lựa chọn, cả đám tiếp tục đi.<br>Khi lên con dốc và thả dốc xuống, khung cảnh khiến bạn và tất cả mọi người ngạc nhiên, các hồ cá... À không, giờ như các bể bơi lớn bé nằm cạnh nhau, nước trong nhưng sâu thẳm, không thấy đáy. Đột nhiên, bạn để ý có ai đó hình như đang bơi lội trong 1 hồ, tuy nhiên có điểm gì đó không đúng lắm...<br>Rầm rầm Một tiếng động lớn vang lên phía trước, Vi Trí bị lệch bánh xe, mọi người dừng lại chạy đến đỡ Vi Trí lên, xe đã bị rơi xuống nước, cả bọn cùng nhau cố gắng kéo xe lên nhưng xe đã vào nước và không chạy được. Dù sao nhìn phía trước cũng chỉ còn một đoạn rất ngắn, có thể thấy được đường chính rồi, cả đám quyết định để xe lại ở đây và đi bộ. Dù sao quãng đường phía trước chỉ đủ để 2 người đi sát vào nhau 1 lượt, chạy xe là quá nguy hiểm. Tất cả xe sẽ được để phía dưới con dốc này và nhờ chủ xe đến lấy về.<br>Đang đi thì bỗng nhiên bạn thấy cảm giác có ai đó ôm bạn và Huyền Trân, Bảo Dương, Vi Trí, rồi bắt ngờ vật mạnh Huyền Trân xuống dưới hồ. Bạn hoảng hốt nhìn theo. Đó là... một... Nhân ngư?... Đang vồ lấy Huyền Trân phía bên bạn, máu me bê bết. Nhân ngư đó khuôn mặt ghê tởm, đuôi của nhân ngư đó đẹp, một vẻ đẹp vô cùng. Nhưng phần trên có mang tai, tóc dài và bết, răng nhọn hoắt và lởm chởm.<br>Bạn cùng Bảo Dương, Vi Trí cũng bị một nhân ngư khác vật xuống theo. Bạn mau chóng leo lên bờ, vừa lên tới bạn nghe tiếng mọi người ở dưới: \"Chạy đi, đừng quay lại\"<br>Bạn nhìn xuống hồ, cả người bạn của bạn đang giãy dụa, máu loang cả hồ. Lũ nhân ngư hết dùng móng vuốt lại dùng miệng cắn xé từ phần chân lên thân. <br> Bạn...",
+        "description": "Cả đám lần lượt thả dốc 2 người 1 xe xuống đường ruộng quanh ao cá. Bảo Dương chở bạn, Vi Trí chở Thúy Hằng.<br>Đó là một con dốc dài, dốc và gồ ghề. Dọc 2 bên đường là các ao cá to. Nước ao trong lành sạch sẽ, mùi cá thoang thoảng, không khí mát lạnh làm bạn rất thích. Mọi người vui vẻ trò chuyện reo hò.<br>Càng đi các ao cá càng ít cá hơn, nhưng những con cá càng to và khoẻ hơn, thỉnh thoảng còn có vài con nhảy ngang mặt ao.<br>Lại đến 1 con dốc khác. Tuy nhiên nó để bảng: \"Không phận sự cấm vào\", đó là 1 chiếc bảng viết tay thủ công, dính bùn và đã cũ kĩ, nhưng không hề có hàng rào hay đồ chặn hay bất cứ gì khác tương tự. Thúy Hằng mở google map ra kiểm tra lần nữa, map hiển thị chỉ cần đi thêm 1.3km là ra đường chính, nơi xe trung chuyển sẽ đến đón. Nhưng nếu quay lại sẽ phải mất 3h, chắc chắn sẽ không kịp xe, và trễ tàu.<br>\"Chắc thằng khùng nào khi trước rào lên giữ đất thôi\" Bảo Dương lên tiếng, không còn lựa chọn, cả đám tiếp tục đi.<br>Khi lên con dốc và thả dốc xuống, khung cảnh khiến bạn và tất cả mọi người ngạc nhiên, các hồ cá... À không, giờ như các bể bơi lớn bé nằm cạnh nhau, nước trong nhưng sâu thẳm, không thấy đáy. Đột nhiên, bạn để ý có ai đó hình như đang bơi lội trong 1 hồ, tuy nhiên có điểm gì đó không đúng lắm...<br>Rầm rầm Một tiếng động lớn vang lên phía trước, Vi Trí bị lệch bánh xe, mọi người dừng lại chạy đến đỡ Vi Trí lên, xe đã bị rơi xuống nước, cả bọn cùng nhau cố gắng kéo xe lên nhưng xe đã vào nước và không chạy được. Dù sao nhìn phía trước cũng chỉ còn một đoạn rất ngắn, có thể thấy được đường chính rồi, cả đám quyết định để xe lại ở đây và đi bộ. Dù sao quãng đường phía trước chỉ đủ để 2 người đi sát vào nhau 1 lượt, chạy xe là quá nguy hiểm. Tất cả xe sẽ được để phía dưới con dốc này và nhờ chủ xe đến lấy về.<br>Đang đi thì bỗng nhiên bạn thấy cảm giác có ai đó ôm bạn và Thúy Hằng, Bảo Dương, Vi Trí, rồi bắt ngờ vật mạnh Thúy Hằng xuống dưới hồ. Bạn hoảng hốt nhìn theo. Đó là... một... Nhân ngư?... Đang vồ lấy Thúy Hằng phía bên bạn, máu me bê bết. Nhân ngư đó khuôn mặt ghê tởm, đuôi của nhân ngư đó đẹp, một vẻ đẹp vô cùng. Nhưng phần trên có mang tai, tóc dài và bết, răng nhọn hoắt và lởm chởm.<br>Bạn cùng Bảo Dương, Vi Trí cũng bị một nhân ngư khác vật xuống theo. Bạn mau chóng leo lên bờ, vừa lên tới bạn nghe tiếng mọi người ở dưới: \"Chạy đi, đừng quay lại\"<br>Bạn nhìn xuống hồ, cả người bạn của bạn đang giãy dụa, máu loang cả hồ. Lũ nhân ngư hết dùng móng vuốt lại dùng miệng cắn xé từ phần chân lên thân. <br> Bạn...",
         "choices": [
             {"id": "context_3A", "text": "Lập tức lấy cây dao trong cặp, rồi cố kéo người gần bạn nhất lên"},
             {"id": "context_3B", "text": "Bỏ chạy"}
@@ -96,7 +96,7 @@ const gameContexts = {
     // Nhánh 3A
     "context_3A": {
         "title": "Opening Ending: Không phải anh hùng nào cũng khoác áo choàng",
-        "description": "Bạn lấy ra cây dao và kéo tự vệ đã luôn được chuẩn bị sẵn từ trong balo ra. Bạn đâm liên tục vào lũ nhân ngư, cố gắng kéo người bạn gần nhất lên bờ. Bạn cố gắng cứu người bạn, nhưng nhân ngư cắn bạn vào chân, bạn ngã xuống hồ. Nhưng một ít sự cố gắng của bạn đã giúp Huyền Trân có cơ hội vùng ra, Bảo Dương và Vi Trí có vẻ cũng đã thoát ra được. Bạn cảm thấy mình đang chìm dần, mọi thứ trở nên mờ nhạt. Hình ảnh cuối cùng bạn thấy là cả 3 đã bám vào được bờ đê. Hi vọng họ sẽ thoát.",
+        "description": "Bạn lấy ra cây dao và kéo tự vệ đã luôn được chuẩn bị sẵn từ trong balo ra. Bạn đâm liên tục vào lũ nhân ngư, cố gắng kéo người bạn gần nhất lên bờ. Bạn cố gắng cứu người bạn, nhưng nhân ngư cắn bạn vào chân, bạn ngã xuống hồ. Nhưng một ít sự cố gắng của bạn đã giúp Thúy Hằng có cơ hội vùng ra, Bảo Dương và Vi Trí có vẻ cũng đã thoát ra được. Bạn cảm thấy mình đang chìm dần, mọi thứ trở nên mờ nhạt. Hình ảnh cuối cùng bạn thấy là cả 3 đã bám vào được bờ đê. Hi vọng họ sẽ thoát.",
         "choices": [
             {"id": "ending_hope", "text": "Bạn nhắm mắt lại, không ngừng cầu nguyện cho họ"},
         ]
@@ -158,7 +158,7 @@ const gameContexts = {
     
     // Các kết thúc
     "ending_hope": {
-        "description": "3 tháng sau, theo kênh địa phương đưa tin, 3 người đã được cứu sống từ hồ cá bí ẩn. Huyền Trân, Bảo Dương và Vi Trí đã được sống sót từ hồ cá bí ẩn. Họ đã báo cáo với cảnh sát về sự việc. Đó là một vụ án tàn nhẫn, nhiều người đã bị bắt và làm \"phẫu thuật\" để trở thành nhân ngư. <br> Theo tên tội phạm khai nhận, hắn cũng là một \"nhân ngư\" do một tai nạn tình cờ, và muốn nuôi những nhân ngư khác để tạo dựng cộng đồng, cũng như lấy mạng họ làm thuốc bổ, theo đuổi sự bất tử. <br> Sau những thông tin đó, tên tội phạm đã tự sát. <br> Vụ án khép lại. <br> Những người bạn sẽ luôn nhớ tới bạn và cảm kích sự hi sinh của bạn, họ coi cha mẹ bạn như cha mẹ mình mà chăm sóc. <br> Tuy không sống sót, nhưng bạn đã trở thành một anh hùng. <br> Họ sẽ sống thay phần của bạn",
+        "description": "3 tháng sau, theo kênh địa phương đưa tin, 3 người đã được cứu sống từ hồ cá bí ẩn. Thúy Hằng, Bảo Dương và Vi Trí đã được sống sót từ hồ cá bí ẩn. Họ đã báo cáo với cảnh sát về sự việc. Đó là một vụ án tàn nhẫn, nhiều người đã bị bắt và làm \"phẫu thuật\" để trở thành nhân ngư. <br> Theo tên tội phạm khai nhận, hắn cũng là một \"nhân ngư\" do một tai nạn tình cờ, và muốn nuôi những nhân ngư khác để tạo dựng cộng đồng, cũng như lấy mạng họ làm thuốc bổ, theo đuổi sự bất tử. <br> Sau những thông tin đó, tên tội phạm đã tự sát. <br> Vụ án khép lại. <br> Những người bạn sẽ luôn nhớ tới bạn và cảm kích sự hi sinh của bạn, họ coi cha mẹ bạn như cha mẹ mình mà chăm sóc. <br> Tuy không sống sót, nhưng bạn đã trở thành một anh hùng. <br> Họ sẽ sống thay phần của bạn",
         "is_ending": true
     },
 
@@ -198,6 +198,7 @@ const restartButton = document.getElementById('restart-button');
 
 // Biến lưu trữ ngữ cảnh hiện tại
 let currentContext = 'context_1';
+let hasReachedTrueEnding = false;
 
 // Hàm hiển thị ngữ cảnh
 function showContext(contextId) {
@@ -210,9 +211,21 @@ function showContext(contextId) {
     
     // Xóa các lựa chọn cũ
     choicesContainer.innerHTML = '';
+
     
     // Kiểm tra xem đây có phải là một kết thúc không
     if (context.is_ending) {
+        // Kiểm tra nếu đây là TRUE ENDING
+        if (context.title === "TRUE ENDING") {
+            hasReachedTrueEnding = true;
+            restartButton.textContent = "Mơ lại lần nữa";
+        } else if (hasReachedTrueEnding) {
+            // Giữ nguyên nội dung "Mơ lại lần nữa" nếu đã đạt được TRUE ENDING trước đó
+            restartButton.textContent = "Mơ lại lần nữa";
+        } else {
+            restartButton.textContent = "Sống lại lần nữa";
+        }
+        
         choicesContainer.style.display = 'none';
         endingContainer.style.display = 'block';
     } else {

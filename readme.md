@@ -4,10 +4,7 @@
 
 ## Cách chơi
 
-1. Người chơi sẽ bắt đầu ở ngã ba đường
-2. Người chơi sẽ chọn một trong các lựa chọn có sẵn
-3. Mỗi lựa chọn sẽ dẫn đến một ngữ cảnh mới với các lựa chọn khác nhau
-4. Trò chơi có nhiều kết thúc khác nhau tùy thuộc vào các lựa chọn của người chơi
+Các lựa chọn sẽ mang đến những kết cục khác nhau
 
 ## Cấu trúc thư mục
 
