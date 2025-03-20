@@ -47,7 +47,7 @@ const gameContexts = {
     
     // Nhánh 2A.1
     "context_2A1": {
-        "description": "Bạn tự đề xuất ăn mì cay ở quán trên đường đến đây. Bảo Dương phản đối với lý do ăn mì cay dễ bị nhiệt. Vi Trí không ý kiến về vấn đề đồ ăn. Thúy Hằng cũng muốn ăn mì cay. Đang tranh cãi thì người giữ đền đi đến nói: \"Các con đừng đi đường vòng nữa, quay lại đường chính đi\". Nói xong, người giữ đền rời đi. \"Ơ sao thế nhỉ?\" <br> \"Chắc đường đang được sửa hay sao đó hả?\" <br>\"Thế đi đường ngược về hay sao? Vậy chán lắm trời ơi\" <br>...<br>\"Thôi bà đó xàm đó, kệ mẹ bả đi\" <br> Cả đám vẫn quyết định đi thăm trại cá",
+        "description": "Bạn tự đề xuất ăn mì cay ở quán trên đường đến đây. Bảo Dương phản đối với lý do ăn mì cay dễ bị nhiệt. Vi Trí không ý kiến về vấn đề đồ ăn. Thúy Hằng cũng muốn ăn mì cay. Đang tranh cãi thì người giữ đền đi đến nói: <br> \"Các con đừng đi đường vòng nữa, quay lại đường chính đi\". Nói xong, người giữ đền rời đi. <br> \"Ơ sao thế nhỉ?\" <br> \"Chắc đường đang được sửa hay sao đó hả?\" <br>\"Thế đi đường ngược về hay sao? Vậy chán lắm trời ơi\" <br>...<br>\"Thôi bà đó xàm đó, kệ mẹ bả đi\" <br> Cả đám vẫn quyết định đi thăm trại cá",
         "choices": [
             {"id": "context_3", "text": "Dọn dẹp xong, bắt đầu đi ăn thôi"}
         ]
@@ -95,7 +95,7 @@ const gameContexts = {
     
     // Nhánh 3A
     "context_3A": {
-        "title": "Opening Ending: Không phải anh hùng nào cũng khoác áo choàng",
+        "title": "Opening Ending: <br> Không phải anh hùng nào cũng khoác áo choàng",
         "description": "Bạn lấy ra cây dao và kéo tự vệ đã luôn được chuẩn bị sẵn từ trong balo ra. Bạn đâm liên tục vào lũ nhân ngư, cố gắng kéo người bạn gần nhất lên bờ. Bạn cố gắng cứu người bạn, nhưng nhân ngư cắn bạn vào chân, bạn ngã xuống hồ. Nhưng một ít sự cố gắng của bạn đã giúp Thúy Hằng có cơ hội vùng ra, Bảo Dương và Vi Trí có vẻ cũng đã thoát ra được. Bạn cảm thấy mình đang chìm dần, mọi thứ trở nên mờ nhạt. Hình ảnh cuối cùng bạn thấy là cả 3 đã bám vào được bờ đê. Hi vọng họ sẽ thoát.",
         "choices": [
             {"id": "ending_hope", "text": "Bạn nhắm mắt lại, không ngừng cầu nguyện cho họ"},
@@ -139,7 +139,7 @@ const gameContexts = {
     
     // Nhánh 4A
     "context_4A": {
-        "description": "Bạn dừng lại. Cơ thể bạn tê dại, mắt bạn dần nhoè, tưởng như ngất đi, may mắn thay, bạn đã kịp hít thở. Mọi thứ dần rõ ràng trở lại.<br> Với hi vọng và niềm tin con búp bê này sẽ không giết bạn, bạn hỏi con búp bê ấy về tình trạng hiện tại, về cách cứu những người bạn đang bị tấn công.<br> Búp bê trả lời:<br> \"Khó à nhen, tụi đó mi không cứu được nữa đâu, lo cho thân mi đi, đừng để ai bắt được đấy.<br> Ông ta mà biết thì mi sẽ trở thành một trong số ở đây thôi. Nhưng mà có khi như vậy cũng không quá tệ đâu.<br> Rồi một ngày nào đó ngươi cũng sẽ có thể trà trộn và sống như con người lần nữa thôi. Rồi mi sẽ quên đi chính mình và tái sinh lần nữa.<br> Chà... Đôi mắt ngươi... Có lẽ ngươi còn có thể đứng trên cao như vương như đế, dùng người cá khác dưỡng thọ cho ngươi...<br> Ngươi có thể có cuộc đời bất tử như ông ta... Tùy ngươi thôi. Ta không có hứng thú lắm...\"Búp bê liên tục kể chuyện về từng nhân ngư mà nó ấn tượng với bạn, trong khi bạn dần rời đi.<br> Đến bậc thang rời đi, bạn quay lại cảm ơn nó:<br> \"Tuy không biết tại sao dù bạn không phải là người, nhưng tôi nghĩ bạn là một người tốt. Cảm ơn nhé\"<br> Rồi bạn nhảy xuống. Cố gắng đến chỗ lên xe, và lên tàu rời đảo.<br> Trước khi lên xe ở trước bến tàu nơi đất liền, có một cô gái, dường như không nói được, níu lấy tay bạn không buông.<br> Bạn trở nên tức giận, nhưng cô gái đó vẫn nhìn bạn bằng ánh mắt cầu xin, sợ hãi.<br> Từ xa, một cô gái với vẻ ngoài giận dữ đang hướng bạn mà đi tới trong sự giận dữ khó chịu. Bạn nhận ra mặt cô ta có lớp vảy ở vành tai (nơi thoạt nhìn chỉ nghĩ là cosplay hay style make up).",
+        "description": "Bạn dừng lại. Cơ thể bạn tê dại, mắt bạn dần nhoè, tưởng như ngất đi, may mắn thay, bạn đã kịp hít thở. <br> Mọi thứ dần rõ ràng trở lại.<br> Với hi vọng và niềm tin con búp bê này sẽ không giết bạn, bạn hỏi con búp bê ấy về tình trạng hiện tại, về cách cứu những người bạn đang bị tấn công.<br> Búp bê trả lời:<br> \"Khó à nhen, tụi đó mi không cứu được nữa đâu, lo cho thân mi đi, đừng để ai bắt được đấy.<br> Ông ta mà biết thì mi sẽ trở thành một trong số ở đây thôi. Nhưng mà có khi như vậy cũng không quá tệ đâu.<br> Rồi một ngày nào đó ngươi cũng sẽ có thể trà trộn và sống như con người lần nữa thôi.<br> Rồi mi sẽ quên đi chính mình và tái sinh lần nữa.<br> Chà... Đôi mắt ngươi... Có lẽ ngươi còn có thể đứng trên cao như vương như đế, dùng người cá khác dưỡng thọ cho ngươi...<br> Ngươi có thể có cuộc đời bất tử như ông ta... Tùy ngươi thôi. Ta không có hứng thú lắm...\" <br> Búp bê liên tục kể chuyện về từng nhân ngư mà nó ấn tượng với bạn, trong khi bạn dần rời đi.<br> Đến bậc thang rời đi, bạn quay lại cảm ơn nó:<br> \"Tuy không biết tại sao dù bạn không phải là người, nhưng tôi nghĩ bạn là một người tốt. Cảm ơn nhé\"<br> Rồi bạn nhảy xuống. Cố gắng đến chỗ lên xe, và lên tàu rời đảo.<br> Trước khi lên xe ở trước bến tàu nơi đất liền, có một cô gái, dường như không nói được, níu lấy tay bạn không buông.<br> Bạn trở nên tức giận, nhưng cô gái đó vẫn nhìn bạn bằng ánh mắt cầu xin, sợ hãi.<br> Từ xa, một cô gái với vẻ ngoài giận dữ đang hướng bạn mà đi tới trong sự giận dữ khó chịu. Bạn nhận ra mặt cô ta có lớp vảy ở vành tai (nơi thoạt nhìn chỉ nghĩ là cosplay hay style make up).",
         "choices": [
             {"id": "ending_illusion", "text": "Bạn la toáng lên rồi hất tay cô gái đang cầu xin bạn rồi chạy đi"},
             {"id": "ending_true", "text": "Bạn thuyết phục cùng kéo cô gái đang cầu xin bạn rời đi"}
@@ -151,7 +151,7 @@ const gameContexts = {
         "title": "Ending: The One Mermaid",
         "description": "Bạn leo xuống bậc thang cuối cùng và ra được đường chính. Ngoài đảo vắng người, bạn không tìm thấy ai để cầu cứu.<br> Bạn ngất xỉu.<br> Khi thức dậy, bạn nhận ra mình đang bị trói lại. Một người đàn ông với mang cá và vảy trên mặt đang nhìn bạn:<br> \"À, đúng là một kiệt tác\"<br> \"Đừng lo, tao sẽ biến mày thành một người cá xứng đáng\"<br> \"Đôi mắt này... Mã gen này...\"<br> \"Thật đáng mong chờ\"<br> ",
         "choices": [
-            {"id": "ending_king", "text": "Bạn nhìn thấy \"hắn ta\" từng bước mổ xẻ cơ thể của bạn và một con cá khác, một con cá đã mất đầu <br> Bạn dần mất đi ý thức"}
+            {"id": "ending_king", "text": "Bạn nhìn thấy \"hắn ta\" từng bước mổ xẻ cơ thể của bạn và một con cá khác, một con cá đã mất đầu. Bạn dần mất đi ý thức"}
         ]
     },
     
@@ -168,14 +168,13 @@ const gameContexts = {
     },
     
     "ending_king": {
-        "title": "Ending: The One Mermaid ",
         "description": "...<br> Ba tháng sau, kênh địa phương thông báo có bốn du khách đã mất tích khi ở đảo Mộng Châu.<br> Theo điều tra, có vẻ bốn người đã té xe rơi xuống hồ cá và không may qua đời.<br> ...<br> Ba mươi chín năm sau, một ngư dân đã báo cáo tìm thấy xác của một nhân ngư.<br> Theo khảo nghiệm, điều tra từ chính quyền, đây là một giống loài kì lạ.<br> ...<br> Sáu tháng sau, người ta đã tìm ra những nhân ngư còn sống ở cùng nhau trong một phần giới hạn ở quần đảo Mộng Châu.<br> Họ cười đùa, sinh hoạt, giao tiếp với nhau bằng một loại sóng âm kì lạ. Ở họ có ý thức của con người, tuy nhiên cư xử như loài cá sống theo bầy.<br> Có một cá thể kỳ lạ, dường như là chỉ huy của tất cả những cá thể khác. Con non được cá thể này chăm sóc, gần gũi hơn sẽ thay thế vị trí chỉ huy khi con được cho là chỉ huy chết.<br> Theo quan sát, khi cố đem loài này ra khỏi ranh giới, chúng sẽ trở nên điên cuồng rồi chết.<br> Thật là một loài kỳ lạ!",
         "is_ending": true
     },
         
     "ending_illusion": {
         "title": "Bad Ending: Hoang tưởng",
-        "description": "Cô gái đang cầu xin bạn bật khóc trong hoảng sợ và van nài. Bạn không quan tâm và liên tục hất ra, thậm chí hét to lên rồi lập tức chạy đi.<br> Bạn báo cảnh sát.<br> Theo điều tra, đó là ba cái chết do té xe xuống nước và đuối nước.<br> Họ nói bạn đã trở nên hoảng sợ, và tất cả chỉ là hoang tưởng.<br> Bạn sống trong lo sợ, ân hận cùng mâu thuẫn suốt phần đời còn lại.<br> Hòn đảo đó trở thành cơn ác mộng ám ảnh bạn mãi mãi.",
+        "description": "Cô gái đang cầu xin bạn bật khóc trong hoảng sợ và van nài. <br>Bạn không quan tâm và liên tục hất ra, thậm chí hét to lên rồi lập tức chạy đi.<br> Bạn báo cảnh sát.<br> Theo điều tra, đó là ba cái chết do té xe xuống nước và đuối nước.<br> Họ nói bạn đã trở nên hoảng sợ, và tất cả chỉ là hoang tưởng.<br> Bạn sống trong lo sợ, ân hận cùng mâu thuẫn suốt phần đời còn lại.<br> Hòn đảo đó trở thành cơn ác mộng ám ảnh bạn mãi mãi.",
         "is_ending": true
     },
 
